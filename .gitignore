@@ -1,0 +1,43 @@
+# ── Compiled output ───────────────────────────────────────────
+out/
+target/
+*.class
+*.jar
+dist/
+
+# ── IDE files ─────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.suo
+*.user
+.project
+.classpath
+.settings/
+nbproject/
+build/
+nbbuild/
+nbdist/
+
+# ── OS files ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Sensitive files – NEVER commit these ──────────────────────
+# DBConnection.java contains your password — keep it local only
+# We use GitHub Actions secrets instead
+src/bank/util/DBConnection.java
+
+# ── Maven wrapper ─────────────────────────────────────────────
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Temp ──────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.swp
