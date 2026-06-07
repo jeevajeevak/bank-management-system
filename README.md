@@ -5,7 +5,7 @@
 
 **A full-featured Java desktop banking application**
 
-[![Build & Release](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/bank-management-system/build-and-release.yml?label=Build&logo=github)](https://github.com/YOUR_USERNAME/bank-management-system/actions)
+[![Build & Release](https://img.shields.io/github/actions/workflow/status/jeevajeevak/bank-management-system/build-and-release.yml?label=Build&logo=github)](https://github.com/jeevajeevak/bank-management-system/actions)
 [![Release](https://img.shields.io/github/v/release/YOUR_USERNAME/bank-management-system?label=Download&logo=github)](https://github.com/YOUR_USERNAME/bank-management-system/releases/latest)
 [![Java](https://img.shields.io/badge/Java-11%2B-orange?logo=openjdk)](https://adoptium.net)
 [![MySQL](https://img.shields.io/badge/MySQL-5.7%2B-blue?logo=mysql)](https://www.mysql.com)
@@ -28,7 +28,7 @@
 ---
 
 ## 🖥️ Screenshots
-
+![alt text](image.png)![alt text](image-1.png)![alt text](image-2.png)
 > Dashboard → Customers → Accounts → Transactions → Loans
 
 ```
@@ -50,7 +50,7 @@
 
 ### Option A — Download EXE (Windows, easiest)
 
-1. Go to [**Releases**](https://github.com/YOUR_USERNAME/bank-management-system/releases/latest)
+1. Go to [**Releases**](https://github.com/jeevajeevak/bank-management-system/releases/latest)
 2. Download `JavaBank-x.x.x.exe`
 3. Run `sql/schema.sql` in MySQL first
 4. Double-click the EXE — done!
@@ -71,7 +71,7 @@ java -jar JavaBank.jar
 ### Option C — Build from source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/bank-management-system.git
+git clone https://github.com/jeevajeevak/bank-management-system.git
 cd bank-management-system
 
 # 1. Set up database
