@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 
 # 🏦 JavaBank Management System
@@ -219,3 +220,6 @@ This project is licensed under the [MIT License](LICENSE).
 <div align="center">
 Built with ☕ Java · Made for learning & resume building
 </div>
+=======
+# bank-management-system
+>>>>>>> c210d759213d45e5fd7dba8e75fa52b6e8cb13fc
